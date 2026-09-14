@@ -1,8 +1,17 @@
+import Header from './Header.jsx';
+import Footer from './Footer.jsx';
+import Button from './Button.jsx';
+
+
 function App() {
-  const myName = "정수용";
   return (
     <div>
-      <h1>안녕하세요 {myName}입니다</h1>
+      <Header />
+      <p>본문</p>
+      <Button label="저장하기" color="blue" />
+      <Button label="삭제하기" color="red"/>
+      <Button label="취소" />
+      <Footer />
     </div>
   );
 }
