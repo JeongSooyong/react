@@ -6,6 +6,7 @@ import NameInput from './NameInput.jsx';
 import Greeting from './Greeting.jsx';
 import TodoList from './TodoList.jsx';
 import RandomJoke from './RandomJoke.jsx';
+import AutoJoke from './AutoJoke.jsx';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Greeting />
       <TodoList />
       <RandomJoke />
+      <AutoJoke />
       <Button label="취소" />
       <Footer />
     </div>
